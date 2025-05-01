@@ -136,6 +136,15 @@ header {
 
 .section-dados .dados p {
   margin: 0;
+  user-select: all;
+  -webkit-user-select: all;
+}
+
+.section-dados .dados .chave-pix,
+.section-dados .dados p {
+  color: #bcbcbc !important;
+  text-decoration: none !important;
+  cursor: default !important;
 }
 
 .section-dados #copy {
